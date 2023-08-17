@@ -5,12 +5,18 @@
   --tan-3: #E2D9D1;
   --tan-4: #D3C1AE;
   --orange: #F67F00;
-  --text-light: #968c84;
   --text-dark: #615954;
   --black: #000000;
   --purple: #800080;
   --royalpurple: #682860;
   --violetred: #f75394;
+  --fuchsia: #d902ee;
+  --sepia: #ffd79d;
+  --hotpink: #f162ff;
+  --darkviolet: #320d3e;
+  --violet: #500472;
+  --turquoise: #79cbb8;
+
 
 }
 
@@ -25,7 +31,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--royalpurple);
+  background-color: var(--turquoise);
   padding: 2vmin;
   height: 100vh;
 }
@@ -74,9 +80,9 @@ code {
   display: flex;
   justify-content: space-around;
   align-items: right;
-  background-color: var(--violetred);
-  color: var(--black);
-  border: .1vmin solid var(--purple);
+  background-color: var(--violet);
+  color: var(--sepia);
+  border: .1vmin solid var(--black);
   border-radius: 1vmin;
   padding: .6vmin;
   text-align: center;
@@ -85,15 +91,15 @@ code {
 
 .form-container {
   padding: 10vmin;
-  background-color: var(--violetred);
-  border: .1vmin solid var(--purple);
+  background-color: var(--turquoise);
+  border: .1vmin solid var(--black);
   border-radius: 1vmin;
   height: 100%;
   width: 100%;
 }
 
 p.error-message {
-  color: var(--royalpurple);
+  color: var(--turquoise);
   text-align: center;
 }
 
@@ -117,27 +123,27 @@ input {
   font-size: 2vmin;
   border: .1vmin solid var(--black);
   border-radius: .5vmin;
-  color: var(--black);
+  color: var(--text-dark);
   background-image: none !important; /* prevent lastpass */
   outline: none;
 }
 
 input:focus {
-  border-color: var(--purple);
+  border-color: var(--black);
 }
 
 button, a.button {
   margin: 1vmin;
   padding: 1vmin;
-  color: var(--white);
-  background-color: var(--purple);
+  color: var(--black);
+  background-color: var(--violet);
   font-size: 2vmin;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
   border: .1vmin solid var(--black);
   border-radius: .5vmin;
-  outline: var(--purple);
+  outline: var(--black);
   cursor: pointer;
 }
 
@@ -153,7 +159,7 @@ button.btn-xs {
 
 button:disabled, form:invalid button[type="submit"] {
   cursor: not-allowed;
-  background-color: var(--purple);
+  background-color: var(--violet);
 }
 
 button[type="submit"] {

@@ -4,7 +4,7 @@
     align-items: center;
     padding: 3vmin;
     font-size: 2vmin;
-    color: var(--text-light);
+    color: var(--sepia);
   }
   
 .OrderDetail .sectionHeading {
@@ -23,8 +23,8 @@
     display: grid;
     grid-template-columns: 18.35vw 5.75vw 5.25vw;
     padding: 1vmin 0;
-    color: var(--text-light);
-    border-top: .1vmin solid var(--tan-3);
+    color: var(--sepia);
+    border-top: .1vmin solid var(--black);
   }
   
 .OrderDetail .total span {
@@ -32,7 +32,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.5vw;
-    color: var(--text-dark);
+    color: var(--sepia);
   }
   
 .OrderDetail .total span.right {

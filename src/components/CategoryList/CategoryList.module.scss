@@ -1,6 +1,6 @@
 
 .CategoryList {
-    color: var(--black);
+    color: var(--turquoise);
     list-style: none;
     padding: 0;
     font-size: 1.7vw;
@@ -15,12 +15,12 @@
     
     .CategoryList li:hover:not(.active) {
     cursor: pointer;
-    background-color: var(--purple);
-    color: var(--black);
+    background-color: var(--violet);
+    color: var(--turquoise);
     }
     
     .CategoryList li.active {
-    color: var(--black);
-    background-color: var(--royalpurple);
+    color: var(--turquoise);
+    background-color: var(--violet);
     border: .1vmin solid var(--black);
     }
