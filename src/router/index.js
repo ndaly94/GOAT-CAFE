@@ -1,4 +1,3 @@
-import NavBar from '../components/NavBar';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import routes from './routes';
 import { useState } from 'react';
@@ -15,7 +14,6 @@ const AppRouter = () => {
 			{
 				user ?
 			<>
-			<NavBar routes={routes} />	
 			<Routes>
 				{routes.map(({ Component, key, path }) => (
 					<Route
