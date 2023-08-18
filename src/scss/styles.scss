@@ -123,7 +123,7 @@ input {
   font-size: 2vmin;
   border: .1vmin solid var(--black);
   border-radius: .5vmin;
-  color: var(--text-dark);
+  color: var(--sepia);
   background-image: none !important; /* prevent lastpass */
   outline: none;
 }
@@ -135,8 +135,8 @@ input:focus {
 button, a.button {
   margin: 1vmin;
   padding: 1vmin;
-  color: var(--black);
-  background-color: var(--violet);
+  color: var(--sepia);
+  background-color: var(--turquoise);
   font-size: 2vmin;
   font-weight: bold;
   text-decoration: none;
@@ -150,11 +150,14 @@ button, a.button {
 button.btn-sm {
   font-size: 1.5vmin;
   padding: .6vmin .8vmin;
+  color: var(--sepia)
 }
 
 button.btn-xs {
   font-size: 1vmin;
   padding: .4vmin .5vmin;
+  color: var(--sepia)
+
 }
 
 button:disabled, form:invalid button[type="submit"] {
